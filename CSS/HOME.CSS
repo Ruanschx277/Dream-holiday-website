@@ -1,0 +1,149 @@
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+nav {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #b6b6b6;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #b6b6b6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.carousel-inner {
+    max-height: 1000px; /
+  }
+  
+  .carousel-item {
+    position: relative;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 10px;
+    color: white;
+  }
+  
+  .carousel-caption h5 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .carousel-caption p {
+    margin: 0;
+    font-size:large;
+    color: #000000;
+  }
+  
+
+  .carousel-indicators {
+    bottom: -30px; 
+  }
+  
+ 
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .carousel-control-prev-icon:hover,
+  .carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main {
+    padding: 20px;
+}
+
+.jumbotron {
+    background-color: #007bff;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.jumbotron p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container .card {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+}

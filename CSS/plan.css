@@ -1,0 +1,183 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color:beige;
+    
+}
+
+.container {
+  padding: 20px;
+  background-color: #7a7a7a;
+
+}
+
+nav {
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #b6b6b6;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+nav a:hover {
+    background-color: #b6b6b6;
+}
+
+
+
+card list
+
+.card-img {
+  display: block;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.card-group.mx-auto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(192, 192, 192, 0.1);
+  margin: 10px;
+  background-color: #00788d;
+}
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+  }
+
+  
+ 
+
+  .card-img {
+    display: block;
+    margin: 0 auto;
+   
+  }
+
+  .card-img-top {
+    max-height: 400px; 
+    object-fit: cover;
+  }
+
+  .card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    color: #000000;
+    background-color: #333;
+  }
+
+  .card-group {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+card list end
+
+
+
+  .text-body-secondary {
+    color: #888;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+
+  form {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  button[type="submit"]:hover{
+    background-color: #555;
+  }
+  
+
+
+  .navbar {
+    background-color: #080808;
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  
+  
+
+  
