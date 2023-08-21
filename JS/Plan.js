@@ -62,7 +62,31 @@ function createCheckboxes(group) {
 
 console.log(checkboxesToForm);
 
-});
+
+const itemGroup = [
+  { name: "Waterproof phone bag", price: 15.99 },
+  { name: "Card holders", price: 9.99 },
+  { name: "Charging hub", price: 29.99 },
+  { name: "Bags", price: 24.95 },
+  { name: "Swim suits", price: 39.99 },
+  { name: "Sun block", price: 8.49 },
+  { name: "Comfortable shoes", price: 59.99 },
+  { name: "Power bank", price: 34.99 },
+  { name: "Towel bag", price: 19.95 },
+  { name: "Comfortable shoes", price: 39.99 },
+  { name: "Clothing holder/bag", price: 19.95 },
+  { name: "Gift cards", price: 0 }, 
+  { name: "Cruise cards", price: 5.99 },
+];
+
+
+const expensiveItems = itemGroup.filter(item => item.price > 100);
+
+
+const sortedItems = itemGroup.slice().sort((a, b) => a.price - b.price);
+
+console.log("Expensive Items:", expensiveItems);
+console.log("Sorted Items:", sortedItems);
 
 
   
