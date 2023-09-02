@@ -67,11 +67,86 @@
     </ul>
   
 
-    <div class="image-container">
-      <img src="/images/Ship Gif.gif" alt="Cruise Ship">
+    <div class="container">
+      <div class="filters">
+        <button onclick="filterAllDestinations()">All Destinations</button>
+        <button onclick="filterShortDurationTrips()">Short Duration Trips</button>
+        <button onclick="filterLongDurationTrips()">Long Duration Trips</button>
+        <button onclick="filterSingleDestination()">Single Destination</button>
+        <button onclick="filterMultiDestinations()">Multi Destinations</button>
+        <button onclick="filterRoundTrips()">Round Trips</button>
+        <button onclick="filterRowBoatSpecial()">Row Boat Special</button>
+      </div>
     </div>
 
+    <div class="container">
+      <div class="island" data-duration="7" data-destination="Mozambique">
+          <img src="/images/MOZAMIQUE.jpg" alt="Mozambique">
+          <div class="additional-info">
+              <p> Mozambique</p>
+              <p>Weather Temperature: <span id="mozambiqueTemp"></span></p>
+          </div>
+      </div>
+  
+      <div class="island" data-duration="3" data-destination="Caribbean Island">
+          <img src="/images/easiest-caribbean-islands-to-travel-to-aruba.jpg" alt="Caribbean Island">
+          <div class="additional-info">
+              <p> Caribbean Island</p>
+              <p>Weather Temperature: <span id="caribbeanTemp"></span></p>
+          </div>
+      </div>
+  
+      <div class="island" data-duration="10" data-destination="Palau Island">
+          <img src="/images/Palau-exotic-island.jpg" alt="Palau Island">
+          <div class="additional-info">
+              <p> Palau Island</p>
+              <p>Weather Temperature: <span id="palauTemp"></span></p>
+          </div>
+      </div>
+    
+      <h1>OCEAN WORLD Trips</h1>
+      <table class="table">
+          <thead>
+              <tr>
+                  <th>Destination</th>
+                  <th>Price Per Person</th>
+                  <th>Description</th>
+                  <th>Select</th> 
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Mozambique</td>
+                  <td>R3500 PER PERSON</td>
+                  <td>Scenic tropical island getaway</td>
+                  <td><input type="checkbox" name="tripCheckbox"></td>
+              </tr>
+     
+              <tr>
+                  <td>Caribbean Island</td>
+                  <td>R4200 PER PERSON</td>
+                  <td>Relax on pristine beaches</td>
+                  <td><input type="checkbox" name="tripCheckbox"></td> 
+              </tr>
+       
+              <tr>
+                  <td>Palau Island</td>
+                  <td>R3800 PER PERSON</td>
+                  <td>Explore adventurous island activities</td>
+                  <td><input type="checkbox" name="tripCheckbox"></td> 
+              </tr>
+          </tbody>
+      </table>
 
+      <button id="removeTripsBtn">Remove Selected Trips</button>
+    <button id="purchaseBtn">Purchase</button>
+    <p id="purchaseMessage"></p>
+
+         
+      
+      <div class="image-container">
+            <img src="/images/Ship Gif.gif" alt="Cruise Ship">
+        </div>
 
 </section>
 </body>
