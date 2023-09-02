@@ -1,36 +1,61 @@
-Dream Holiday
+# Dream Holiday
 
 ![Ocean World](/logo/LOGO%201.png)
 
 ## Table of Contents
 
-*About Ocean world Cruise trip
+1. [About](#about)
+2. [Installation](#installation)
+3. [Built With](#built-with)
+4. [Contributing](#contributing)
+5. [Author](#author)
+6. [License](#license)
+7. [Acknowledgements](#acknowledgements)
 
-Ocean World is a cruise trip webpage for Family members to enjoy and see what available prices and Island trips will be cheapest and affordable.
- 
-![screenshots](/screenshots/Screenshot%20(236).png)
-![screenshots](/screenshots/Screenshot%20(234).png)
-![screenshots](/screenshots/Screenshot%20(236).png)
+## About
 
-*Instructions how to install
+**Ocean World** is a cruise trip webpage designed for family members to explore available prices and affordable island trips.
 
-step 1  Go and sing up for Github on your webpage/Browser.
-step 2  Go on any Browser and with your signed up account and select the webpage you want to extract the code from.
-step 3 Go and select code on the top right.
-step 4 Last and not least download zip or go and install Github Desktop to extract the web files there...
+![Screenshots](/screenshots/Screenshot%20(236).png)
+![Screenshots](/screenshots/Screenshot%20(234).png)
+![Screenshots](/screenshots/Screenshot%20(236).png)
 
-*Built with
+## Installation
 
-Languages and fonts
-Certain frames to format the structure correctly
-And Javascript to get all the necessary code requirements working...
+Follow these steps to install the project:
 
-*Contributing
+1. Sign up for a GitHub account on your web browser if you don't already have one.
+2. Open your preferred web browser and log in to your GitHub account.
+3. Select the repository from which you want to extract the code.
+4. Click the "Code" button on the top right.
+5. Download the ZIP file or install GitHub Desktop to extract the web files.
+
+## Built With
+
+This project is built using:
+
+- Languages and fonts
+- Certain frames to format the structure correctly
+- JavaScript to handle necessary code requirements
+
+## Contributing
+
+If you'd like to contribute to this project, follow these steps:
+
+```bash
+git clone https://github.com/Ruanschx277/Dream-holiday-website.git
+cd Dream-holiday-website
+git checkout -b update-readme
+git add README.md
+git commit -m "Update README with relevant information"
+git push origin update-readme
 
 
-*Author
-I Ruan Schoeman as A web developer contribute to be contacted by Email,sms or personal number details.
+You can watch a demonstration of our website in action in this video:
 
-*License 
-License requirements will be secured by a Github link provided to be accessible..
--[]
+![Demo Video](./MP4%20VIDEO/your-video.mp4)
+
+git add README.md
+git commit -m "Add demo video to README"
+git push
+
